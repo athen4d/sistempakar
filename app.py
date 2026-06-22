@@ -71,11 +71,28 @@ st.markdown(
 }
 
 /* ── Radio button ── */
-div[data-testid="stRadio"] label        { color: #ffffff !important; font-size: 0.94rem; }
-div[data-testid="stRadio"] > div        { gap: 0.3rem; }
+div[data-testid="stRadio"] label {
+    color: #ffffff !important;
+    font-size: 0.94rem;
+}
 
-/* Lingkaran radio yang belum dipilih */
-div[data-testid="stRadio"] input[type="radio"] { accent-color: #1f6feb; }
+div[data-testid="stRadio"] p {
+    color: #ffffff !important;
+    font-size: 0.94rem !important;
+}
+
+div[data-testid="stRadio"] span {
+    color: #ffffff !important;
+}
+
+div[data-testid="stRadio"] > div {
+    gap: 0.3rem;
+}
+
+/* Lingkaran radio */
+div[data-testid="stRadio"] input[type="radio"] {
+    accent-color: #1f6feb;
+}
 
 /* ── Tombol Analisis ── */
 div[data-testid="stButton"] > button {
